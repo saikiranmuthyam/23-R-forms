@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<h1 align ="center"> APPLICATION FORM </h1>
+</head>
+<style>
+    h1,form,body{
+        color:lightgreen;
+        background-color: black;
+    }
+     
+</style>
+<body>
+    <form>
+      <b> <em><label for="firstname">FIRSTNAME:</label>
+        <input type="text"
+               name="fname"
+               id="firstname"
+               required
+               placeholder="saikiran">
+        <br><br><label for="secondname">SECONDNAME:</label>
+         <input type="text" name="sname"id="secondname" required placeholder="muthyam">
+        <br><br><label for="father name">FATHER NAME:</label>
+        <input type="text" name="fathername" id="fathername" required >
+        <br><br><label for="mothername">MOTHER NAME:</label>
+        <input type="text" name="mothername" id="mothername" required >  
+        <br><br> <label for="date of birth">DATE OF BIRTH</label>
+        <input type="date" value="date of birth" name="date of birth">  
+       <br><br> <label for="email">EMAIL ID:</label>  
+        <input type="email"  name="email"id="email" required placeholder="xxx@xx" >  
+       <br></br> <label for="mobile number">MOBILE NUMBER</label>
+        <input type="tel" name="number"id="mobile number"required>
+        <br><br> <label for="adhaar number" > ADHAAR NUMBER</label>
+        <input type="text"  id="adhaar number" name="adhaar number" pattern="[0-9]{16}" placeholder="0000-0000-0000-0000">
+        <br<br><label for="pan no">PAN CARD NUMBER</label>
+        <input type="text" id="pan no" name="pan no" pattern="[0-9,A-Z]{10}">      
+         <br><br><label >MARRIAGE STATUS</label>
+         <input type="radio" value="married" name="marriage status"> MARRIED
+         <input type="radio" value="unmarried" name="marriage status"> UNMARRIED
+        <input type="radio" value="divorced" name="marriage status">DIVORCED  
+        <br><br><label >CITIZEN</label>
+        <input type="radio" value="citizen" name="citizen">INDIA
+        <input type="radio" value="non citizen" name="citizen">OTHER
+       <br><br><label>EDUCATION:</label>
+        <input type="radio" value="degree" name="degree">DEGREE
+        <input type="radio"  value="btech"  name="degree">BTECH
+        <input type="radio"  value="bcom"   name="degree">BPHARM
+        <input type="radio"  value="bpharm" name="degree">BCOM
+       <br><br><label for="percentage">PERCENTAGE</label>
+        <input type="number" name="percentage" id="percentage" required  pattern="[0-100]">
+        <label for=""></label>
+       <br><br> <label>EMPLOYMENT TYPE</label>
+        <input type="radio" value="parttime" name="employmenttype">PART-TIME
+        <input type="radio" value="fulltime" name="employmenttype">FULL-TIME</em></b>
+        <br><br>
+           
+         <br><br><label for="password">PASSWORD</label>
+         <input type="password"  name="password">
+          <center> <br><br><input  type="submit" value="submit"></center>
+         </form>
+   
+</body>
+</html>
